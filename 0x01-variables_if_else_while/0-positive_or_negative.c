@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: 'Check for number types'
+ * Description: 'Task-negative and positive num'
  * Return: always 0
  */
 int main(void)
