@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: 'Number types checker'
+ * Description: 'Check for number types'
  * Return: always 0
  */
 int main(void)
@@ -24,6 +24,5 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-
 	return (0);
 }
