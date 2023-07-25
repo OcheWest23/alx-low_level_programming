@@ -12,13 +12,13 @@ void puts2(char *str)
 	char *y = str;
 	int o;
 
-	while (*y != '\n')
+	while (*y != '\0')
 	{
 		y++;
 		longi++;
 	}
 	t = longi - 1;
-	for (0 = 0 ; o <= t ; 0++)
+	for (o = 0 ; o <= t ; 0++)
 	{
 		if (o % 2 == 0)
 	{
