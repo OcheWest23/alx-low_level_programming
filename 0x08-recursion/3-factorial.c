@@ -1,20 +1,17 @@
 #includ "main.h"
 /**
- * factorial - get the factorial of a number
+ * factorial - get the factorial of a given number
  *
- * @n: factor of factorize
+ * @n: number to find factorial of.
  *
- * Return: factorial of n
+ * Return: factorial of number
+ * -1 if n < 0.
  */
 int factorial(int n)
 {
-	if (n == 0)
-	{
-		return (1);
-	}
-	else if (n < 0)
-	{
+	if (n < 0)
 		return (-1);
-	}
+	if (n == 0 || n == 1)
+		return (1);
 	return (n * factorial(n - 1));
 }
